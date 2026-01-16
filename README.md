@@ -35,7 +35,7 @@ pip install PyQt5 pikepdf
 
 ```bash
 # 克隆项目
-git clone <your-repo-url>
+git clone https://github.com/qiword/pdf_password_remover.git
 cd pdf_password_remover
 
 # 直接运行
