@@ -1,12 +1,10 @@
-# pdf_password_remover
-一个移除PDF文件密码的工具。
 # 批量移除PDF打开密码和只读密码工具
 
 > 基于 pikepdf 开发的跨平台桌面应用，支持批量移除PDF文件的打开密码和权限密码
 
 ## 📋 项目简介
 
-本项目为 [vikflow/PDF-decrypter](https://github.com/vikflow/PDF-decrypter) 项目开发了一个图形用户界面(GUI)，基于 PyQt5 构建。支持批量处理加密的PDF文件，移除打开密码和只读权限密码，并生成详细处理报告。
+本项目为 [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) 项目开发了一个图形用户界面(GUI)，基于 PyQt5 构建。支持批量处理加密的PDF文件，移除打开密码和只读权限密码，并生成详细处理报告。
 
 ![1768511141949](image/1768511141949.png)
 
@@ -53,11 +51,11 @@ python main.py
 pip install pyinstaller
 
 # 打包为单个可执行文件（推荐）
-pyinstaller --onefile --windowed --name "PDF密码移除工具" main.py
+pyinstaller --onefile --windowed --name "pdf_password_remover" main.py
 
 # 打包后文件位置
-dist/PDF密码移除工具.exe  # Windows
-dist/PDF密码移除工具      # macOS/Linux
+dist/pdf_password_remover.exe  # Windows
+dist/pdf_password_remover      # macOS/Linux
 ```
 
 ### 打包选项说明
@@ -159,7 +157,7 @@ pdf_password_remover/
 
 ## 🙏 致谢
 
-- 感谢 [vikflow/PDF-decrypter](https://github.com/vikflow/PDF-decrypter) 提供的核心解密功能
+- 感谢 [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) 提供的PDF读写功能
 - 感谢所有贡献者和用户的支持
 
 ---
